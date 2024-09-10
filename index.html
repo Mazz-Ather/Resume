@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Resume</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <div id="main">
+      <aside>
+        <h2>About Me</h2>
+        <p>
+          “I am a frontend developer, specializing in creating visually
+          appealing and user-friendly websites and applications using HTML, CSS,
+          and JavaScript.”
+        </p>
+        <div id="contact">
+          <i class="icon fa-solid fa-phone" style="font-size: 20px"></i>+92 335
+          2861062
+        </div>
+        <div id="email">
+          <i class="icon fa-solid fa-envelope" style="font-size: 20px"></i>
+          mazzather@gmail.com
+        </div>
+        <div id="location">
+          <i class="icon fa-solid fa-location-dot" style="font-size: 20px"></i
+          >Nursery
+        </div>
+        <!-- <div id="accordian"> -->
+        <ul id="accordian">
+          <li>
+            <label for="first"
+              ><h3 style="margin-left: 25px; color: aqua; font-weight: 100px">
+                Languages
+              </h3>
+              <span><i class="fa-solid fa-turn-down"></i></span
+            ></label>
+            <input type="radio" name="accordian" id="first" checked />
+            <div class="content">
+              Urdu (Native)<br />
+              English (Intermediate)<br />
+              German (Basic)
+            </div>
+          </li>
+
+          <li>
+            <label for="second"
+              ><h3 style="margin-left: 30px; color: aqua; font-weight: 200px">
+                Skills
+              </h3>
+              <span><i class="fa-solid fa-turn-down"></i></span
+            ></label>
+            <input type="radio" name="accordian" id="second" />
+            <div class="content">
+              Frontend Developer <br />
+              Javascript Developer <br />
+              React Native Developer <br />Digital Marketer
+            </div>
+          </li>
+        </ul>
+      </aside>
+      <nav>
+        <div class="nav-sec1">
+          <img src="my pic.png" alt="pic" />
+        </div>
+
+        <div class="nav-sec2">
+          <h1 id="fname">MAAZ</h1>
+          <h1 id="lname">ATHER</h1>
+          <h2>Frontend Developer</h2>
+        </div>
+      </nav>
+
+      <div id="nav-part2">
+        <div id="education">
+          <button id="button">Education</button><br />
+          <h3>
+            <pre>Al-Qamar Academy School <br>               Matric  <br>           2020 - 2021</pre>
+          </h3>
+          <br />
+          <h3>
+            <pre>Commerce & Economics College <br>              Intermediate  <br>              2022 - 2023</pre>
+          </h3>
+          <br />
+          <h3>
+            <pre>Virtual University <br>              Undergraduate <br>              2024 - on-going</pre>
+          </h3>
+        </div>
+      </div>
+      <div id="nav-part3">
+        <div id="experience">
+          <button id="button">Experience</button><br />
+          <h3>
+            <pre>Indulge Software House <br> As A Frontend Developer  <br>              6 Months </pre>
+          </h3>
+          <br />
+          <h3>
+            <pre>  Ibex <br>  As A React Native Developer  <br>                1 Year</pre>
+          </h3>
+        </div>
+      </div>
+    </div>
+    <script src="main.ts"></script>
+  </body>
+</html>
